@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Un plan, dos recorridos</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="phone">
+    <div id="progress"></div>
+    <section id="scene"></section>
+    <footer id="bar">
+      <button id="btn-detail" hidden>Ver los números</button>
+      <button id="btn-ask" hidden>Tengo una duda</button>
+    </footer>
+
+    <div id="sheet" hidden>
+      <div class="sheet-box">
+        <p class="sheet-title">Pregunta sobre lo que estás viendo</p>
+        <textarea id="ask-text" rows="3" placeholder="Escribe tu duda"></textarea>
+        <p id="ask-answer"></p>
+        <div class="row">
+          <button id="ask-close" class="ghost">Cerrar</button>
+          <button id="ask-send">Preguntar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

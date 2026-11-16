@@ -1,0 +1,313 @@
+{
+  "case": "timothy-melanie-weah",
+  "family": "los Weah",
+  "people": {
+    "timothy": {
+      "name": "Timothy",
+      "partner": "melanie"
+    },
+    "melanie": {
+      "name": "Melanie",
+      "partner": "timothy"
+    }
+  },
+  "intro": {
+    "kicker": "Un plan, dos personas",
+    "first": "{partner} hará lo mismo desde su móvil. ¿Coincidiréis?",
+    "second": "{partner} ya ha ordenado lo suyo. ¿Coincidiréis?",
+    "sub": "Vuestro plan tiene cuatro frentes abiertos. Cada uno decide qué va primero, sin ver lo del otro. Después se descubre."
+  },
+  "question": {
+    "id": "A0",
+    "type": "question",
+    "kicker": "Antes de enseñarte nada",
+    "text": "¿Qué te preocupa más?",
+    "options": [
+      {
+        "id": "kids",
+        "text": "Que a Liam y Josh no les falte nada si uno de los dos falta"
+      },
+      {
+        "id": "card",
+        "text": "Esa tarjeta que nunca baja"
+      },
+      {
+        "id": "college",
+        "text": "Pagar la universidad de los niños"
+      },
+      {
+        "id": "retire",
+        "text": "Si podremos jubilarnos cuando queremos"
+      },
+      {
+        "id": "other",
+        "text": "Otra cosa",
+        "free_text": true
+      }
+    ]
+  },
+  "personal_intro": "Antes de ordenar: tres cosas que tienes que saber",
+  "personal": {
+    "timothy": [
+      {
+        "id": "T1",
+        "type": "card",
+        "kicker": "Tu parte del seguro",
+        "text": "Tu seguro de vida son 140.000 $. Es menos de un año de tu sueldo.",
+        "visual": {
+          "type": "bars",
+          "bars": [
+            {
+              "label": "Tu sueldo anual",
+              "value": 150000,
+              "text": "150.000 $"
+            },
+            {
+              "label": "Tu seguro",
+              "value": 140000,
+              "text": "140.000 $"
+            },
+            {
+              "label": "Mínimo recomendado",
+              "value": 750000,
+              "text": "750.000 $"
+            }
+          ]
+        },
+        "detail": "Rango recomendado de 750.000 $ a 1.500.000 $. Te faltan 610.000 $.",
+        "plan_sections": [
+          "protection_life_insurance_short_observations"
+        ]
+      },
+      {
+        "id": "T2",
+        "type": "card",
+        "kicker": "Tu tarjeta, su efectivo",
+        "text": "La Chase está a tu nombre. El dinero que la pagaría está en la cuenta de Melanie. Esta puerta solo se abre entre los dos.",
+        "visual": {
+          "type": "none"
+        },
+        "detail": "Las cuatro deudas del plan figuran a tu nombre. La cuenta de 150.000 $ figura a nombre de Melanie.",
+        "plan_sections": [
+          "debt_short_observations"
+        ]
+      },
+      {
+        "id": "T3",
+        "type": "card",
+        "kicker": "Tu Roth",
+        "text": "De los 25.000 $ de tu Roth, 12.740 $ están en un fondo apalancado: amplifica lo que hace la bolsa, para arriba y para abajo.",
+        "visual": {
+          "type": "bars",
+          "bars": [
+            {
+              "label": "Tu Roth",
+              "value": 25000,
+              "text": "25.000 $"
+            },
+            {
+              "label": "Fondo apalancado (UPRO)",
+              "value": 12740,
+              "text": "12.740 $"
+            }
+          ]
+        },
+        "detail": "La cuenta rindió en torno a un 41 % anual en tres años, con una volatilidad del 30 %, y eso puede no repetirse. El plan no pide venderlo: pide que los dos sepáis que está ahí.",
+        "plan_sections": []
+      }
+    ],
+    "melanie": [
+      {
+        "id": "M1",
+        "type": "card",
+        "kicker": "Tu parte del seguro",
+        "text": "Tu seguro de vida son 110.000 $. Es menos de un año de tu sueldo.",
+        "visual": {
+          "type": "bars",
+          "bars": [
+            {
+              "label": "Tu sueldo anual",
+              "value": 120000,
+              "text": "120.000 $"
+            },
+            {
+              "label": "Tu seguro",
+              "value": 110000,
+              "text": "110.000 $"
+            },
+            {
+              "label": "Mínimo recomendado",
+              "value": 600000,
+              "text": "600.000 $"
+            }
+          ]
+        },
+        "detail": "Rango recomendado de 600.000 $ a 1.200.000 $. Te faltan 490.000 $.",
+        "plan_sections": [
+          "protection_life_insurance_short_observations"
+        ]
+      },
+      {
+        "id": "M2",
+        "type": "card",
+        "kicker": "Tu efectivo, su tarjeta",
+        "text": "El colchón está en tu cuenta. Aunque paguéis 6.800 $ de la tarjeta, sigue muy por encima de los 8 o 9 meses recomendados.",
+        "visual": {
+          "type": "blocks",
+          "total": 16,
+          "on": 9,
+          "label": "meses"
+        },
+        "detail": "150.000 $ en la cuenta a tu nombre. Reserva recomendada de 75.180 $ a 84.577,50 $. La tarjeta figura a nombre de Timothy.",
+        "plan_sections": [
+          "protection_emergency_fund_short_observations"
+        ]
+      },
+      {
+        "id": "M3",
+        "type": "card",
+        "kicker": "Tus cuentas corren más que tú",
+        "text": "Dijiste que prefieres un riesgo moderado: alrededor de un 60 % en bolsa. Tus cuentas llevan entre un 70 % y un 81 %.",
+        "visual": {
+          "type": "bars",
+          "bars": [
+            {
+              "label": "Lo que elegiste",
+              "value": 60,
+              "text": "60 %"
+            },
+            {
+              "label": "Tus cuentas, hasta",
+              "value": 81,
+              "text": "81 %"
+            }
+          ]
+        },
+        "detail": "En conjunto, las inversiones de la familia están en torno a un 77 % en bolsa. Contando el efectivo, baja a un 45 %.",
+        "plan_sections": []
+      }
+    ]
+  },
+  "rank": {
+    "id": "Q1",
+    "type": "rank",
+    "kicker": "Tu turno",
+    "text": "¿Qué va primero?",
+    "hint": "Toca los cuatro en el orden en que los harías."
+  },
+  "fronts": [
+    {
+      "id": "card",
+      "title": "La tarjeta",
+      "move": "Pay down revolving card",
+      "fact": "18.000 $ al 18 %. De los 300 $ que pagáis al mes, 270 $ son intereses.",
+      "do": "Pagar 6.800 $ de la tarjeta con el efectivo que sobra",
+      "tasks": {
+        "melanie": "Mover 6.800 $ de tu cuenta de efectivo",
+        "timothy": "Pagar con eso la tarjeta, que está a tu nombre"
+      },
+      "cost": "6.800 $, una sola vez, con dinero que ya tenéis. Quedan 11.200 $ de deuda y seguís con los 300 $ al mes.",
+      "ask": "Qué pasaría si pagarais la tarjeta entera.",
+      "detail": "A este ritmo la tarjeta se acaba en septiembre de 2039. El efectivo que os sobra por encima de la reserva y las vacaciones son 60.222,50 $.",
+      "plan_sections": [
+        "debt_short_observations"
+      ]
+    },
+    {
+      "id": "life",
+      "title": "El seguro de vida",
+      "move": "Add life cover",
+      "fact": "Si falta un sueldo, el seguro deja 140.000 $ o 110.000 $. Liam tiene 6 años y Josh 3.",
+      "do": "Pedir presupuesto para 235.000 $ más de seguro de vida",
+      "tasks": {
+        "timothy": "Pedir presupuesto para ampliar tu seguro",
+        "melanie": "Pedir presupuesto para ampliar tu seguro"
+      },
+      "cost": "Vuestro plan no trae el precio. Lo sabréis con el presupuesto.",
+      "ask": "Cuánto cuesta al mes y cómo repartir la cobertura entre los dos.",
+      "detail": "El mínimo recomendado es de 750.000 $ para Timothy y 600.000 $ para Melanie. Faltan 610.000 $ y 490.000 $. Los 235.000 $ son el primer paso que puntúa el plan.",
+      "plan_sections": [
+        "protection_intro",
+        "protection_life_insurance_short_observations"
+      ]
+    },
+    {
+      "id": "umbrella",
+      "title": "El umbrella",
+      "move": "Add umbrella cover",
+      "fact": "Si alguien os reclama una cantidad grande, hoy no hay nada que lo cubra.",
+      "do": "Pedir presupuesto de una póliza umbrella de 1.000.000 $",
+      "tasks": {
+        "timothy": "Pedir el presupuesto, o acordar quién de los dos lo pide",
+        "melanie": "Pedir el presupuesto, o acordar quién de los dos lo pide"
+      },
+      "cost": "Vuestro plan no trae el precio. Lo sabréis con el presupuesto.",
+      "ask": "Cuánto cuesta y qué cantidad de cobertura os conviene.",
+      "detail": "Una reclamación podría alcanzar vuestro patrimonio de 695.500 $.",
+      "plan_sections": [
+        "protection_umbrella_short_observations"
+      ]
+    },
+    {
+      "id": "college",
+      "title": "La universidad",
+      "fact": "0 $ guardados. Liam empieza en agosto de 2038 y Josh en agosto de 2041.",
+      "do": "Empezar a ahorrar para la universidad de Liam y Josh",
+      "tasks": {
+        "timothy": "Acordar con Melanie cuánto apartáis cada mes",
+        "melanie": "Acordar con Timothy cuánto apartáis cada mes"
+      },
+      "cost": "Unos 4.609 $ al año para cubrir lo que falta.",
+      "ask": "En qué tipo de cuenta conviene ahorrarlo.",
+      "detail": "Faltan 113.508,60 $ para pagar la universidad de los dos.",
+      "no_score_note": "El ahorro para la universidad no cambia la nota del plan, pero hoy hay 0 $ guardados.",
+      "plan_sections": [
+        "savings_short_observations"
+      ]
+    }
+  ],
+  "front_priority": [
+    "card",
+    "life",
+    "umbrella",
+    "college"
+  ],
+  "later": {
+    "blockers": [
+      {
+        "id": "time",
+        "text": "No tuve tiempo"
+      },
+      {
+        "id": "how",
+        "text": "No sé cómo se hace"
+      },
+      {
+        "id": "disagree",
+        "text": "No lo vemos igual"
+      },
+      {
+        "id": "rethink",
+        "text": "Me lo he pensado mejor"
+      }
+    ],
+    "blocker_thanks": "Gracias. Se lo paso a vuestro asesor para que os ayude con eso.",
+    "dated": [
+      {
+        "id": "V1",
+        "type": "card",
+        "kicker": "Un mes después",
+        "text": "En enero toca pagar los 6.000 $ de las vacaciones. Ya estaban apartados: el colchón no se entera.",
+        "visual": {
+          "type": "number",
+          "value": "6.000 $",
+          "label": "vacaciones, enero de 2027"
+        },
+        "detail": "Después de apartar ese pago, el efectivo cubre unos 15,4 meses de gastos esenciales.",
+        "plan_sections": [
+          "protection_emergency_fund_short_observations"
+        ]
+      }
+    ]
+  }
+}
